@@ -22,8 +22,8 @@ window.addEventListener("DOMContentLoaded", function() {
 	});*/
 	
 	myGame = new Game({
-		//gameScene: SpaceWarsGame,
-		gameScene: {
+		gameScene: SpaceWarsGame,
+		/*gameScene: {
 			pos: new Vector2(),
 		
 			init: function() {},
@@ -38,7 +38,7 @@ window.addEventListener("DOMContentLoaded", function() {
 					color: "red"
 				});
 			},
-		},
+		},*/
 		printer: new Canvas2dPrinter({
 			printerId: "myCanvas",
 			fatherElementId: "app",
