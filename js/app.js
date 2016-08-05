@@ -45,7 +45,7 @@ window.addEventListener("DOMContentLoaded", function() {
 			width: 800,
 			height: 480
 		}),
-		input: GamePad,
+		input: Keyboard,
 		width: 800,
 		height: 480
 	});
